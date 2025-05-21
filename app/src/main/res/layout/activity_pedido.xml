@@ -33,7 +33,7 @@
         <ImageView
             android:layout_width="24dp"
             android:layout_height="24dp"
-            android:src="@drawable/ic_person"
+            android:src="@drawable/ic_persona"
             android:contentDescription="Icono Nombre Cliente"
             android:tint="?attr/colorControlNormal"/>
 
@@ -62,7 +62,7 @@
         <ImageView
             android:layout_width="24dp"
             android:layout_height="24dp"
-            android:src="@drawable/ic_phone"
+            android:src="@drawable/ic_numero"
             android:contentDescription="Icono Número Cliente"
             android:tint="?attr/colorControlNormal"/>
 
@@ -91,7 +91,7 @@
         <ImageView
             android:layout_width="24dp"
             android:layout_height="24dp"
-            android:src="@drawable/ic_products"
+            android:src="@drawable/ic_producto"
             android:contentDescription="Icono Productos"
             android:tint="?attr/colorControlNormal"/>
 
@@ -120,7 +120,7 @@
         <ImageView
             android:layout_width="24dp"
             android:layout_height="24dp"
-            android:src="@drawable/ic_location"
+            android:src="@drawable/ic_ubicacion"
             android:contentDescription="Icono Ubicación"
             android:tint="?attr/colorControlNormal"/>
 
@@ -151,7 +151,6 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Llamar"
-            android:drawableLeft="@drawable/ic_call"
             android:drawablePadding="8dp"/>
 
         <Button
@@ -175,4 +174,5 @@
             android:drawablePadding="8dp"/>
 
     </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
